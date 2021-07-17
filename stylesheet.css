@@ -1,0 +1,199 @@
+body{
+    margin: 0px;
+
+}
+.container    {
+    background-color: white;
+    align-items: center;
+    color: #fd297b;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    clear:both;
+    overflow: auto;
+    padding: 0px;
+    height: 75px;
+  }
+footer a{
+    font-size: 30px;
+    color: #fd297b;
+    text-decoration: none;
+}
+
+
+a {
+    color: #fd297b;
+}
+
+
+footer{
+    background-color: #424242;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    color: #fd297b;
+
+}
+
+.dogPhotos{
+    width: 350px;
+    height: 350px;
+
+}
+
+.Directions{
+    font-size: 30px;
+    color: #fd297b;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.PictureAndButtons{
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+
+#htagL{
+    visibility: hidden;
+
+}
+
+#htagD{
+    visibility: hidden;
+}
+
+
+#likes{
+    visibility: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+#dislikes{
+    visibility: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Picture{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 50px;
+    width: 450px;
+    height: 450px;
+    background-color: beige;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+
+
+}
+
+button{
+    margin-bottom: 50px;
+    border-radius: 35px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
+
+button:hover {
+    color: #ffffff ;
+    border-color: white;
+    transition: all 0.4s ease 0s;
+}
+
+#noButton{
+    background-color:#FF5864 !important;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#yesButton{
+    background-color: #1FB186;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+
+/**** nav bar css *******/
+.container {
+    padding: 0;
+}
+.logo img{
+    float:left;
+    height: 60px;
+    padding: 14px 16px;
+}
+
+nav{
+    color: #d12165;
+    height: 75px;
+}
+
+ul li {
+  display: inline-block;
+  font-family: Montserrat;
+  font-size: 20px;
+  padding: 0px;
+}
+
+li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: rgb(238, 23, 105);
+  padding: 14px 16px;
+  color: white;
+  transition: all 0.4s ease 0s;
+}
+
+ul {
+    float:right;
+  }
+
+/******/
+
+h1{
+    font-family: Montserrat;
+    color: #fd297b;
+    text-align: center;
+    padding-top: 30px;
+}
+@media only screen and (max-width: 998px) and (min-width: 400px){
+    footer a{
+        font-size: 20px;
+    }
+}

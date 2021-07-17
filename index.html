@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dog Tinder Home Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Muli|Playfair+Display&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="main_script.js"></script>
+    </head>
+    <body onload="firstDog();">
+
+        <div class="container">
+            <nav>
+              <div class="logo">
+                      <img src="dinderlogo.png" alt="dinderlogo">
+              </div>
+              <ul >
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+          </nav>
+          
+          </div>
+                  <hr>
+
+
+        <div class = "PictureAndButtons">
+
+            <div class = "Picture">
+                <img class="dogPhotos" id="currentDog" src="https://i.pinimg.com/originals/4f/1d/39/4f1d3983a80af217262033f02075a2f1.jpg" alt="Dog1">
+            </div>
+        </div>
+
+        <div class = "buttons">
+            <div class = "button1">
+                    <button id = "noButton" type="button" onclick="dislike()">Nope!</button>
+            </div>
+            <div class = "buttons">
+                <p class = "Directions">
+                    Scroll down to see your past Likes and Dislikes!
+                </p>
+            </div>
+            <div class = "button2">
+                    <button id = "yesButton" type="button" onclick="like()">Like!</button>
+            </div>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        
+
+        <div>
+            <div class = "buttons">
+                    <button id = "yesButton" type="button" onclick="viewL()">CLICK TO SEE YOUR LIKES!</button>
+            </div>
+            
+            <h1 id = "htagL">Likes:</h1>
+            <section id="likes"></section>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div>
+            <div class = "buttons">
+                    <button id = "noButton" type="button" onclick="viewD()">CLICK TO SEE YOUR DISLIKES!</button>
+            </div>
+            
+            <h1 id = "htagD"> Dislikes:</h1>
+            <section id = "dislikes"></section>
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+       
+
+
+        <footer>
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    
+            <ul>
+                <li><a href="https://github.com/sophiasaur/dogtinder">GitHub Repo</a></li>
+            </ul>
+    
+            <ul>
+                <li><a href="https://www.google.com/search?q=cats&sxsrf=ACYBGNQwKRdQL4ycSuUIgAMH7QwISRU4Ww:1573168788306&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjAurG2ntnlAhVCSN8KHcmeCgwQ_AUIEigB&biw=1440&bih=743">Cat Tinder</a></li>
+            </ul>
+    
+    
+    
+        </footer>
+    </body>
+</html>
