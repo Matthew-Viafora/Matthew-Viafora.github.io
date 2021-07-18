@@ -6,9 +6,9 @@ body{
 .container    {
     background-color: #f8f8ff;
     align-items: center;
-    color: blue;
+    color: rgb(183, 183, 252);
     font-family: 'Muli', sans-serif;
-    text-align: center;
+    text-align: right;
     clear:both;
     overflow: auto;
     padding: 0px;
@@ -22,7 +22,7 @@ footer a{
 
 
 a {
-    color: blue;
+    color: rgb(4, 4, 49);
 }
 
 
@@ -272,9 +272,9 @@ ul {
 
 h1{
     font-family: Montserrat;
-    color: blue;
+    color: rgb(74, 169, 242);
     text-align: center;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 @media only screen and (max-width: 998px) and (min-width: 400px){
     footer a{
