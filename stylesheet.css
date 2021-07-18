@@ -39,12 +39,6 @@ footer{
 
 }
 
-.dogPhotos{
-    width: 350px;
-    height: 350px;
-
-}
-
 .Directions{
     font-size: 30px;
     color: blue;
@@ -55,21 +49,15 @@ footer{
 .PictureAndButtons{
     display: flex;
     justify-content: center;
-
-
-
 }
-
 
 #htagL{
     visibility: hidden;
-
 }
 
 #htagD{
     visibility: hidden;
 }
-
 
 #likes{
     visibility: hidden;
