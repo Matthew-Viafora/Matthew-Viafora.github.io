@@ -41,13 +41,13 @@ a {
 }
 /*Website fooger*/
 footer{
-    background-color:rgb(46, 63, 77);
+    background-color:rgb(64, 101, 131);
     align-items: center;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 10px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    color: rgb(4, 4, 49);
+    color: rgb(255, 255, 255);
 }
 
 .PictureAndButtons{
@@ -216,10 +216,17 @@ ul {
   margin: auto;
   color: rgb(0, 0, 0);
   font-size: 20px;
+  overflow: clip;
 }
 .thumbnail img{
   float:left;
   height: 300px;
   width: 450px;
   padding: 0px 10px;
+  overflow: clip;
+}
+
+.aboutUs{
+  align-items: center;
+  text-align: center;
 }
