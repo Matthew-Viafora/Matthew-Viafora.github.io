@@ -39,15 +39,25 @@ footer a{
 a {
   color: rgb(4, 4, 49);
 }
-/*Website fooger*/
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+/*Website footer*/
 footer{
     background-color:rgb(64, 101, 131);
     align-items: center;
     padding-top: 20px;
     padding-bottom: 10px;
+    position: absolute;
+    bottom: 0;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: rgb(255, 255, 255);
+    width: 100%;
 }
 
 .PictureAndButtons{
