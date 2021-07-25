@@ -294,3 +294,31 @@ ul {
   display: flex;
   align-items: center;
 }
+
+.posts img{
+    width:40%;
+    height:275px;
+    object-fit:fill;
+}
+
+.article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.article h4{
+  margin-top: 1px;
+}
+
+.article img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%
+}
+
+.article-paragraph{
+  display: flex;
+  flex-direction: column;
+  width: 60%
+}
