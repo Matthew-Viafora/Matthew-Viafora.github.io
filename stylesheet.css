@@ -267,3 +267,15 @@ ul {
   width: 20%;
   margin: 5%;
 }
+
+.featured img{
+    width:100%;
+    height:300px;
+    object-fit:fill;
+}
+
+.posts img{
+    width:40%;
+    height:275px;
+    object-fit:fill;
+}
