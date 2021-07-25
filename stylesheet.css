@@ -41,7 +41,9 @@ footer a{
   color: rgb(255, 255, 255);
 }
 a {
-  color: rgb(4, 4, 49);
+  color: rgb(0, 0, 0);
+  font-family: 'Trebuchet MS';
+  font-size: 125%;
 }
 #page-container {
   position: relative;
@@ -279,14 +281,11 @@ ul {
   width: 20%;
   margin: 5%;
 }
-.viafora{
+.contactInfo{
   width:50%;
   text-align:center;
 }
-.chachko{
-  width:50%;
-  text-align:center;
-}
+
 .contactUs{
   clear: both;
   display: flex;
