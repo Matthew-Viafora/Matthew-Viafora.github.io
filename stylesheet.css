@@ -238,7 +238,7 @@ ul {
 }
 
 .boxed {
-  height: 370px;
+  height: 400px;
   width: 80%;
   border: 10px solid rgb(0, 94, 128);
   padding: 10px;
@@ -352,4 +352,9 @@ ul {
 .learning-techniques{
   font-size: 125%;
   font-family: 'Lato';
+}
+
+.description{
+  display: flex;
+  align-content: center;
 }
