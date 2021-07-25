@@ -281,10 +281,38 @@ ul {
   width: 20%;
   margin: 5%;
 }
-.contactInfo{
+.viafora{
+  display: flex;
+  flex-direction: column;
   width:50%;
   text-align:center;
+  padding: 50px;
 }
+
+.viafora-SM img{
+  display: flex;
+  height: 10%;
+  width: 10%;
+  flex-direction: row;
+  margin-left: 50%;
+}
+
+.chachko{
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  text-align:center;
+  padding: 50px;
+}
+
+.chachko-SM img{
+  display: flex;
+  height: 10%;
+  width: 10%;
+  flex-direction: row;
+  margin-left: 50%;
+}
+
 
 .contactUs{
   clear: both;
