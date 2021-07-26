@@ -279,7 +279,9 @@ ul {
   width: 20%;
   margin: 5%;
 }
-.viafora{
+
+
+.profile{
   display: flex;
   flex-direction: column;
   width:50%;
@@ -287,23 +289,7 @@ ul {
   padding: 100px;
 }
 
-.viafora-SM img{
-  display: flex;
-  height: 10%;
-  width: 10%;
-  flex-direction: row;
-  margin-left: 50%;
-}
-
-.chachko{
-  display: flex;
-  flex-direction: column;
-  width:50%;
-  text-align:center;
-  padding: 100px;
-}
-
-.chachko-SM img{
+.profileImg img{
   display: flex;
   height: 10%;
   width: 10%;
