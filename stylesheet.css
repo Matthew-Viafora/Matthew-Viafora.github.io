@@ -29,12 +29,10 @@ p{
 }
 /*Header*/
 .container{
-    background-color:rgb(64, 101, 131);
-    align-items: center;
-    color: rgb(4, 4, 49);
-    font-family: 'Muli', sans-serif;
-    text-align: right;
-    overflow: auto;
+  padding: 30px;
+  text-align: center;
+  background: rgb(64, 101, 131);
+  font-size:20px;
   }
 footer a{
   font-size: 30px;
@@ -52,7 +50,7 @@ a {
 }
 /*Footer*/
 footer{
-    background-color:rgb(64, 101, 131);
+    background-color:rgb(150, 156, 160);
     align-items: center;
     position: absolute;
     bottom: 0;
@@ -238,6 +236,8 @@ ul {
 }
 
 .boxed {
+  /* display: flex;
+  flex-direction: column; */
   height: 400px;
   width: 80%;
   border: 10px solid rgb(0, 94, 128);
