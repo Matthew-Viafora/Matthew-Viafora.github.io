@@ -29,6 +29,7 @@ p{
 }
 /*Header*/
 .container{
+  display: flex;
   padding: 30px;
   text-align: center;
   background: rgb(64, 101, 131);
