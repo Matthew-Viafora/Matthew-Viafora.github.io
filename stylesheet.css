@@ -428,8 +428,8 @@ ul {
 
   .contactUs img{
     display: flex;
-    height: 10%;
-    width: 10%;
+    height: 100%;
+    width: 100%;
     flex-direction: row;
     margin-left: 50%;
   }
