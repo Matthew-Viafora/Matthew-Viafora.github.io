@@ -424,6 +424,11 @@ ul {
         height: 100%;
   }
 
+  .contactUs{
+    width: 100%;
+    height: 100%;
+  }
+
   .header_ a {
     float: none;
     display: block;
