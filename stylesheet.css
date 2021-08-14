@@ -234,6 +234,18 @@ ul {
   object-fit:fill;
 }
 
+#content-wrap{
+  background-image: linear-gradient(to bottom right, #3C99DC, #66D3FA);
+}
+#test-container{
+  background-image: linear-gradient(to bottom right, #3C99DC, #66D3FA);
+}
+
+.boxed{
+  background-color: rgb(218, 218, 218);
+}
+
+
 .posts img{
   width:40%;
   height:275px;
@@ -262,6 +274,7 @@ ul {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
+  
 }
 
 .aboutUs{
@@ -283,6 +296,9 @@ ul {
   margin: 5%;
 }
 
+.whole-page{
+  background-image: linear-gradient(to bottom right, #3C99DC, #66D3FA);
+}
 
 .profile{
   display: flex;
@@ -408,7 +424,7 @@ ul {
 
 /* Change the background color on mouse-over */
 .header_ a:hover {
-  background-color: rgb(43, 115, 173);
+  background-color: #66D3FA;
   color: black;
 }
 
