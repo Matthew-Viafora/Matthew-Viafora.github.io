@@ -443,11 +443,8 @@ ul {
   }
 
   .contactUs img{
-    display: flex;
     height: 100%;
     width: 100%;
-    flex-direction: row;
-    margin-left: 50%;
   }
 
   .header_ a {
