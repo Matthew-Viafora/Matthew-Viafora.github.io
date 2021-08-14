@@ -308,6 +308,8 @@ ul {
   flex-direction: row;
 }
 
+
+
 .posts img{
     width:40%;
     height:275px;
@@ -424,9 +426,12 @@ ul {
         height: 100%;
   }
 
-  .contactUs{
-    width: 100%;
-    height: 100%;
+  .contactUs img{
+    display: flex;
+    height: 10%;
+    width: 10%;
+    flex-direction: row;
+    margin-left: 50%;
   }
 
   .header_ a {
