@@ -234,6 +234,18 @@ ul {
   object-fit:fill;
 }
 
+#content-wrap{
+  background-image: linear-gradient(to bottom right, #3C99DC, #66D3FA);
+}
+#test-container{
+  background-image: linear-gradient(to bottom right, #3C99DC, #66D3FA);
+}
+
+.boxed{
+  background-color: rgb(248,248,255);
+}
+
+
 .posts img{
   width:40%;
   height:275px;
@@ -262,6 +274,7 @@ ul {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
+  
 }
 
 .aboutUs{
@@ -283,6 +296,9 @@ ul {
   margin: 5%;
 }
 
+.whole-page{
+  background-image: linear-gradient(to bottom right, #3C99DC, #66D3FA);
+}
 
 .profile{
   display: flex;
@@ -320,6 +336,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(248,248,255);
 }
 .article h4{
   margin-top: 1px;
@@ -408,7 +425,7 @@ ul {
 
 /* Change the background color on mouse-over */
 .header_ a:hover {
-  background-color: rgb(43, 115, 173);
+  background-color: #66D3FA;
   color: black;
 }
 
@@ -427,11 +444,8 @@ ul {
   }
 
   .contactUs img{
-    display: flex;
     height: 100%;
     width: 100%;
-    flex-direction: row;
-    margin-left: 50%;
   }
 
   .header_ a {
