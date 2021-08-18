@@ -63,9 +63,6 @@ footer{
     height: 7rem;
 }
 
-
-
-
 .PictureAndButtons{
     display: flex;
     justify-content: center;
@@ -254,7 +251,7 @@ ul {
 
 .boxed {
   height: 400px;
-  width: 80%;
+  width: 1200px;
   border: 10px solid rgb(0, 94, 128);
   padding: 10px;
   margin: auto;
@@ -391,9 +388,6 @@ ul {
   display: flex;
   align-content: center;
 }
-
-
-
 
 
 /*******************************************************************************************/
