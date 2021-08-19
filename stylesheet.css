@@ -72,12 +72,15 @@ footer{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  max-width: 1000px;
+  max-height: 720px;
   position: relative;
   margin: auto;
 }
 .slideshow-container img{
-  width: 100%;
+  width: 1000px;
+  height:720px;
+  object-fit: fill;
 }
 
 /* Hide the images by default */
@@ -189,16 +192,10 @@ button:hover {
     padding: 0px 10px;
 }
 
-nav{
-    color: blue;
-    height: 75px;
-}
-
 ul li {
   display: inline-block;
   font-family: Montserrat;
   font-size: 20px;
-  padding: 0px;
 }
 
 li a {
@@ -225,12 +222,6 @@ ul {
     }
 }
 
-.featured img{
-  width:100%;
-  height:300px;
-  object-fit:fill;
-}
-
 #content-wrap{
   background-image: linear-gradient(to bottom right, #3C99DC, #66D3FA);
 }
@@ -241,7 +232,7 @@ ul {
 .boxed img{
   width:500px;
   height:360px;
-  padding: 0px 10px 0px 0px;
+  padding-right: 10px;
   overflow: clip;
   float: left;
 }
@@ -372,7 +363,6 @@ ul {
   align-content: center;
 }
 
-
 /*******************************************************************************************/
 
 /* Style the header with a grey background and some padding */
@@ -385,7 +375,8 @@ ul {
 /* Style the header links */
 .header_ a {
   float: left;
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -395,10 +386,10 @@ ul {
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-.header_ a.logo_ {
+/*.header_ a.logo_ {
   font-size: 25px;
   font-weight: bold;
-}
+}*/
 
 /* Change the background color on mouse-over */
 .header_ a:hover {
@@ -409,6 +400,8 @@ ul {
 /* Float the link section to the right */
 .header-right_ {
   float: right;
+  display: block;
+  text-align: center;
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
