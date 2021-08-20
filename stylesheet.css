@@ -321,6 +321,12 @@ ul {
   width: 60%
 }
 
+.article-paragraph p{
+  letter-spacing: 0.01em;
+  line-height: 1.4;
+  word-spacing: 1px;
+}
+
 .tab{
   margin-left: 50px;
   margin-bottom: 0px;
