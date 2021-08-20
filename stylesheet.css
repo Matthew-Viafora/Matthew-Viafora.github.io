@@ -403,10 +403,17 @@ ul {
         width: 400px;
         height: 100%;
   }
-
-  .contactUs img{
-    height: 100%;
-    width: 100%;
+  .boxed img{
+    width:250px;
+    height:170px;
+  }
+  .profileImgs img{
+    height: 250px;
+    width: 200px;
+  }
+  .profileLinks img{
+    height: 50px;
+    width: 50px;
   }
 
   .header_ a {
