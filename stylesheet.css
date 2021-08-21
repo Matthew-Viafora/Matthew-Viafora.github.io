@@ -417,6 +417,18 @@ ul {
     height: 30px;
     padding: 0px 5px;
   }
+  .slideshow-container {
+    max-width: 250px;
+    max-height: 180px;
+  }
+  .slideshow-container img{
+    width: 250px;
+    height:180px;
+  }
+  .text{
+    font-size: 10px;
+  }
+
   .boxed{
     width: 400px;
     height: 100%;
