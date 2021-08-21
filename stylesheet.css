@@ -430,7 +430,11 @@ ul {
     font-size: 12px;
   }
   .profile{
-    width: 300px;
+    align-items: center;
+    display: inline-block;
+    width: 200px;
+    text-align:center;
+    padding: 10px 0px;
   }
   .profileImg img{
     height: 125px;
