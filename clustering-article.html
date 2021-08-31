@@ -13,80 +13,62 @@
         <!-- HEADER -->
         <div id="page-container">
             <div id="content-wrap">
-                <!-- <div class="container">
-                    <nav>
-                        <div class="logo">
-                            <img src="imgs/logo.jpeg" alt="VCai">
-                        </div>
-                        <ul>
-                            <h1>ViaforaChachkoAI</h1>
-                            <li><a href="index.html">HOME</a></li>
-                            <li><a href="archieve.html"> ARTICLE ARCHIEVE </a></li>
-                            <li><a href="events.html"> EVENTS </a></li>
-                            <li><a href="about_us.html">ABOUT US</a></li>
-                        </ul>
-                    </nav>
-                </div> -->
+                <!-- HEADER -->
                 <div class="header_">
-                    <div class="logo">
+                <div class="logo">
+                    <a href="index.html">
                         <img src="imgs/logo.jpeg" alt="VCai">
-                    </div>
-                    <a href="index.html" class="logo_">ViaforaChachkoAI</a>
-                    <div class="header-right_">
-                      <a href="index.html">Home</a>
-                      <a href="archieve.html">Article Archieve</a>
-                      <a href="events.html">Events</a>
-                      <a href="about_us.html">About Us</a>
-                    </div>
-                  </div>
-
-
-                <div class = "article">
-                    
-                        <h2>What is Clustering in Machine Learning?</h2>
-                        <h4>By Matthew Viafora</h4>
-                        <img src="imgs/cluster.jpeg">
-
-                    <div class = 'article-paragraph'>
-                        <p class = "tab">Machine learning is comprised of many different types of algorithms, many of which are</p>
-                        <p class = "tab-bottom"> grouped into both supervised and unsupervised learning techniques.  Supervised learning is used for the most part when the data has “answers”.  What I mean by “answers” is you have some input features X mapped to some output Y.  Some might ask, is it even possible to come up with some kind of machine learning algorithm for analyzing datasets that are a bit more unstructured and do not contain this traditional X → Y mapping, well, of course, that is where unsupervised learning comes in!  There are many different unsupervised learning algorithms for different tasks and results, but in this article, we will be focusing on clustering specifically.</p>
-                        <p>Clustering is one of the most popular unsupervised machine learning algorithms.  Imagine clustering as a subgroup -of a subgroup- of machine learning.  Clustering contains different types of algorithms that are used to detect trends and patterns within raw datasets.  (Look below for a visual example of where clustering stands within machine learning).</p>
-                    </div>    
-                        <img src="imgs/cluster1.png">
-                    <div class = 'article-paragraph'>
-                        <p>In this visual, we can see that “clustering” refers to a subcategory of unsupervised learning and in itself contains different types of clustering algorithms.  There are many different types of clustering algorithms, so in this article, I will go over clustering as an unsupervised learning technique and go over one actual clustering algorithm - K-Means Clustering. K-Means Clustering is the most popular clustering algorithm used practically by data scientists every day. </p>
-                        <h3>What is Clustering?</h3>
-                        <p>When I first started getting introduced to machine learning algorithms, unsupervised algorithms seemed very intimidating especially “clustering”. Fortunately, clustering is relatively straightforward and K-means clustering is actually very easy to understand and even implement. (Check out my article coming soon for a sample implementation of K-Means clustering!).  In theory, when analyzing some dataset, the data should be related to certain characteristics and features that define each category and forms trends and patterns that might not be visible to a human at first glance.  Clustering algorithms are used to group data together and gain initial insight from the dataset.  Using this insight, you can make predictions for future grouping classifications and better understand the dataset depending on the problem you are trying to solve.</p>
-                        <h3>Clustering Real-World Example</h3>
-                        <p>One particular real-world example that caught my attention and got me interested in unsupervised learning and clustering is using clustering to group together and identify potential health issues stemming from a dataset of DNA sequences.  The study that I first saw this being used in healthcare was “https://www.sciencedirect.com/science/article/pii/S1532046418301308” where the researchers were able to use an unsupervised learning clustering algorithm to group together patients based on their genetic makeup without providing any input parameters (“Answers” in our traditional X → Y grouping).  This is a really cool paper/implementation of a clustering algorithm if you have the time to read it!</p>
-                        <h3>K-Means Clustering</h3>
-                        <p>K-Means clustering is the most popular and well-known clustering algorithm used by data scientists/machine learning engineers every day.  It is very easy to understand and even implement!  Before diving into the technicality of the algorithm, check out the figure below to get a rough idea of how the algorithm groups data together.</p>
-                    </div>    
-                        <img src = "imgs/kmeansclustering.gif">
-                        <p class='subtitle'>https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68</p>
-                    <div class = 'article-paragraph'>
-                        <p>Just by looking at this graphic above, we can see that the k-means algorithm is classifying a dataset into three different groups by taking some seemingly random places points and optimizing their location until they are in the center of a “cluster” of data points.  On a very high level, this is exactly how the algorithm works!  I’ll break down the algorithm into steps so that you will have a clear and insightful idea of how the algorithm works on a technical level.</p>
-                        <ol>
-                            <li>To start, the first step is to pick a number of classes that the data will be grouped into (The number of classes is represented by K and is shown in the name of the algorithm: K-means clustering).  For example, in the graphic above, the number of classes or groups is three.  This is a significant downside of the algorithm since it involves human intervention and when developing machine learning algorithms, we try to program the software to make as many decisions as it can autonomously rather than allowing any bias into the model.  Each X in the graphic above represents a data point vector and since there are three classes there are three Xs.</li>
-                            <br>
-                            <li>The group centers are then randomly placed in the graph. i.e: random initialization.</li>
-                            <br>
-                            <li>Next in the algorithm, the distance between each data point and each group center is computed.  The data point is then classified as the group that it is closest to.</li>
-                            <br>
-                            <li>Then, the algorithm uses the mean of each data point vector in each group/cluster to recompute the center of the cluster.  This step of the algorithm is essentially the training part of the algorithm as the next step is to repeat these steps until convergence.</li>
-                            <br>
-                            <li>Finally, the algorithm repeats these steps until the center of the cluster moves very little and the clusters have converged to the optimal points.</li>
-                        </ol>
-                    </div>
+                        <h1>ViaforaChachkoAI</h1>
+                    </a>
+                </div>
+                <div class="header-right_">
+                    <a href="index.html">Home</a>
+                    <a href="archieve.html">Article Archieve</a>
+                    <a href="events.html">Events</a>
+                    <a href="about_us.html">About Us</a>
+                </div>
+            </div>
+            <div class = "article">   
+                <h2>What is Clustering in Machine Learning?</h2>
+                <h4>By Matthew Viafora</h4>
+                <img src="imgs/cluster.jpeg">
+                <div class = 'article-paragraph'>
+                    <p class = "tab">Machine learning is comprised of many different types of algorithms, many of which are</p>
+                    <p class = "tab-bottom"> grouped into both supervised and unsupervised learning techniques.  Supervised learning is used for the most part when the data has “answers”.  What I mean by “answers” is you have some input features X mapped to some output Y.  Some might ask, is it even possible to come up with some kind of machine learning algorithm for analyzing datasets that are a bit more unstructured and do not contain this traditional X → Y mapping, well, of course, that is where unsupervised learning comes in!  There are many different unsupervised learning algorithms for different tasks and results, but in this article, we will be focusing on clustering specifically.</p>
+                    <p>Clustering is one of the most popular unsupervised machine learning algorithms.  Imagine clustering as a subgroup -of a subgroup- of machine learning.  Clustering contains different types of algorithms that are used to detect trends and patterns within raw datasets.  (Look below for a visual example of where clustering stands within machine learning).</p>
+                </div>    
+                <img src="imgs/cluster1.png">
+                <div class = 'article-paragraph'>
+                    <p>In this visual, we can see that “clustering” refers to a subcategory of unsupervised learning and in itself contains different types of clustering algorithms.  There are many different types of clustering algorithms, so in this article, I will go over clustering as an unsupervised learning technique and go over one actual clustering algorithm - K-Means Clustering. K-Means Clustering is the most popular clustering algorithm used practically by data scientists every day. </p>
+                    <h3>What is Clustering?</h3>
+                    <p>When I first started getting introduced to machine learning algorithms, unsupervised algorithms seemed very intimidating especially “clustering”. Fortunately, clustering is relatively straightforward and K-means clustering is actually very easy to understand and even implement. (Check out my article coming soon for a sample implementation of K-Means clustering!).  In theory, when analyzing some dataset, the data should be related to certain characteristics and features that define each category and forms trends and patterns that might not be visible to a human at first glance.  Clustering algorithms are used to group data together and gain initial insight from the dataset.  Using this insight, you can make predictions for future grouping classifications and better understand the dataset depending on the problem you are trying to solve.</p>
+                    <h3>Clustering Real-World Example</h3>
+                    <p>One particular real-world example that caught my attention and got me interested in unsupervised learning and clustering is using clustering to group together and identify potential health issues stemming from a dataset of DNA sequences.  The study that I first saw this being used in healthcare was “https://www.sciencedirect.com/science/article/pii/S1532046418301308” where the researchers were able to use an unsupervised learning clustering algorithm to group together patients based on their genetic makeup without providing any input parameters (“Answers” in our traditional X → Y grouping).  This is a really cool paper/implementation of a clustering algorithm if you have the time to read it!</p>
+                    <h3>K-Means Clustering</h3>
+                    <p>K-Means clustering is the most popular and well-known clustering algorithm used by data scientists/machine learning engineers every day.  It is very easy to understand and even implement!  Before diving into the technicality of the algorithm, check out the figure below to get a rough idea of how the algorithm groups data together.</p>
+                </div>    
+                <img src = "imgs/kmeansclustering.gif">
+                <p class='subtitle'>https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68</p>
+                <div class = 'article-paragraph'>
+                    <p>Just by looking at this graphic above, we can see that the k-means algorithm is classifying a dataset into three different groups by taking some seemingly random places points and optimizing their location until they are in the center of a “cluster” of data points.  On a very high level, this is exactly how the algorithm works!  I’ll break down the algorithm into steps so that you will have a clear and insightful idea of how the algorithm works on a technical level.</p>
+                    <ol>
+                        <li>To start, the first step is to pick a number of classes that the data will be grouped into (The number of classes is represented by K and is shown in the name of the algorithm: K-means clustering).  For example, in the graphic above, the number of classes or groups is three.  This is a significant downside of the algorithm since it involves human intervention and when developing machine learning algorithms, we try to program the software to make as many decisions as it can autonomously rather than allowing any bias into the model.  Each X in the graphic above represents a data point vector and since there are three classes there are three Xs.</li>
+                        <br>
+                        <li>The group centers are then randomly placed in the graph. i.e: random initialization.</li>
+                        <br>
+                        <li>Next in the algorithm, the distance between each data point and each group center is computed.  The data point is then classified as the group that it is closest to.</li>
+                        <br>
+                        <li>Then, the algorithm uses the mean of each data point vector in each group/cluster to recompute the center of the cluster.  This step of the algorithm is essentially the training part of the algorithm as the next step is to repeat these steps until convergence.</li>
+                        <br>
+                        <li>Finally, the algorithm repeats these steps until the center of the cluster moves very little and the clusters have converged to the optimal points.</li>
+                    </ol>
+                </div>
                     <div class = 'article-paragraph'>    
                         <p>There is also a variation of K-means clustering called K-median clustering which essentially is the same however, instead of calculating the mean, it calculates the median.  This is effective when working with outliers as it is less sensitive, however, it is a bit slower when working with larger data sets as sorting is required for each iteration for computing the median.</p>
                         <p>As you can see K-means clustering is a fairly straightforward and fun-to-learn algorithm as it is a simple, effective, and fast algorithm when implemented correctly.  It is a great algorithm for introducing unsupervised learning algorithms and is also very practical and easy to implement in practice.  In my follow-up article I will go over a simple implementation of K-means clustering on real-world data, so stay tuned!</p>
                     </div>
-                        <p>Thank you for reading and keep learning!</p>
- 
-                    
+                    <p>Thank you for reading and keep learning!</p>
                 </div>
-                
             </div>
             <footer>
                 <p>(CURRENTLY IN BETA)</p>
